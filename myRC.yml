@@ -5,12 +5,12 @@ metadata:
 spec:
   replicas: 3
   selector:
-    app: mynginx-rc
+    app: mynginx
   template:
     metadata:
       name: mynginx-rc
       labels:
-        app: mynginx-rc
+        app: mynginx
     spec:
       containers:
         - name: mynginx-container
